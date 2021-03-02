@@ -29,8 +29,7 @@ namespace dibuja_estrella
                                  new Point (250,300),
                                  new Point (245,160),
                                  new Point (300,140),
-                                 new Point (230,135),
-            };
+                                 new Point (230,135)};
 
             Graphics papel = this.CreateGraphics();
             papel.FillPolygon(Brushes.Pink, estrella);
